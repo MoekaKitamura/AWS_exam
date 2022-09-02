@@ -2,7 +2,7 @@ lock "~> 3.17.1"
 
 set :application, "AWS_exam"
 set :repo_url, "https://github.com/MoekaKitamura/AWS_exam.git"
-set :linked_files, 'config/secrets.yml'
+set :linked_files, %w{config/secrets.yml}
 set :linked_dirs, %w{log tmp/pids tmp/cache tmp/sockets public/uploads}
 set :keep_releases, 5
 set :rbenv_ruby, '3.0.1'
